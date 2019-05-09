@@ -3,7 +3,7 @@
  
 This is a library to generate DTMF tones only using *Arduino Uno*. It is designed to work with R-2R ladder based DAC to produce DTMF tones.
  
-For more information about this library please check [jayakody2000lk.blogspot.com](jayakody2000lk.blogspot.com).
+For more information about this library please check [jayakody2000lk.blogspot.com](https://jayakody2000lk.blogspot.com/2019/05/generate-dtmf-tones-only-using-arduino.html).
 
 ## Schematic
 
