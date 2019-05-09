@@ -4,6 +4,10 @@ This is a library to generate DTMF tones only using *Arduino Uno*. It is designe
  
 For more information about this library please check jayakody2000lk.blogspot.com.
 
+## Schematic
+
+  ![R-2R DAC layout for Arduino Uno](https://raw.githubusercontent.com/dilshan/dtmfgen/master/layout/arudino-wiring_bb.jpg)
+
 ## DTMF Generator API
 
 ### DTMFGenerator class
