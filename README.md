@@ -17,6 +17,7 @@ Try to create only single instance of DTMFGenerator class in global space. For e
 
 #### generate
 **Description:** Generate DTMF tone for specified symbol or number.
+
 **Syntax:**
 
     generate(key, duration)
@@ -26,6 +27,7 @@ Try to create only single instance of DTMFGenerator class in global space. For e
  - *duration*: Length of the tone in milliseconds.
 
 **Returns:** none.
+
 **Example:**
 
     dtmf.generate('3', 100);
