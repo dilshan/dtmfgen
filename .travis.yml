@@ -34,9 +34,9 @@ before_install:
   - export PATH=$PATH:$HOME/arduino-ide
   - buildLibExample() {
       EXAMPLE_FILE=$PWD/examples/DTMFGenerate/DTMFGenerate.ino;
-      cp $EXAMPLE_FILE $PWD
+      cp $EXAMPLE_FILE $PWD;
       arduino --verbose-build --verify --board $BOARD $PWD/DTMFGenerate.ino;
     }
 install:
 script:
-  - buildLibExample
+  - buildLibExample 
