@@ -1,4 +1,5 @@
 # Arduino DTMF Generator
+[![Build Status](https://travis-ci.org/dilshan/dtmfgen.svg?branch=master)](https://travis-ci.org/dilshan/dtmfgen)
  
 This is a library to generate DTMF tones only using *Arduino Uno*. It is designed to work with R-2R ladder based DAC to produce DTMF tones.
  
