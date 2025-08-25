@@ -74,7 +74,7 @@ DTMFGenerator::DTMFGenerator()
 void DTMFGenerator::generate(char key, unsigned long duration)
 {
   unsigned long timerCycle = 0;
-  // This library allows numerical characters, A-D, # and * only.
+  // This library supports valid DTMF characters (A-D, 0-9, *, #)
   // Distinguish the low-frequency and high-frequency components of the DTMF waveform.
   switch (key)
   {
@@ -148,7 +148,7 @@ void DTMFGenerator::generate(char key, unsigned long duration)
     break;
   default:
     // Unsupported character
-    return
+    return;
   }
 
   // Start waveform from VCC/2.
