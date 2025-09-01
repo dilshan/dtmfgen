@@ -23,7 +23,7 @@
 #define DTMF_GENERATOR_H
 
 #if !defined(__AVR_ATmega328P__)
-  #error Unsupported board. This library support ATmega328P based Arduino Uno boards only.	
+  #error Unsupported board. This library supports ATmega328P based Arduino Uno boards only.	
 #endif
 
 class DTMFGenerator
